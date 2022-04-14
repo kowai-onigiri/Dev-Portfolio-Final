@@ -12,3 +12,12 @@ navMenu.addEventListener('click', function() {
     }
 });
 
+navMenu.addEventListener('touchstart', function() {
+    
+    if (dropMenu.style.display === "none") {
+        dropMenu.style.display = "block";
+    } else {
+        dropMenu.style.display = "none";
+    }
+});
+
