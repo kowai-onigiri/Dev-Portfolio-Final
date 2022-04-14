@@ -8,7 +8,10 @@
         <title>Developer Portfolio</title>
     </head>
     <body>
+        
         <div class = "flexContainer">
+            
+            
             <div class = "header">
                 <div class = "topBar">
                     <div class = "logo">Alexis Chambers</div>
@@ -24,11 +27,20 @@
                         <button class="contactBtn">Get in touch</button>
                     </div>
 
-                    <div class = "hamburgerMenu">
+                    <div id = "hambug" class = "hamburgerMenu">
                         <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M24 4H0V0H24V4ZM24 8H0V12H24V8ZM24 16H0V20H24V16Z" fill="white"/>
                         </svg>
                     </div>
+                </div> 
+                <div id = "sidebar" class = "menuSide">
+                    <ul class="navSidebar">
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Chats</a></li>
+                        <li><a href="#">Awards</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><button id = "sideBtn" class="contactBtn sideBtn">Get in touch</button></li>
+                    </ul>
                 </div>
                 <div class="headerText">
                     <div class="bigText">Helping companies build better, scalable software.</div>
@@ -162,5 +174,6 @@
                 
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
